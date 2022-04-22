@@ -1,0 +1,11 @@
+{
+  "theme": "moonstone",
+  "monospaceFontFamily": "OperatorMono Nerd Font",
+  "translucency": false,
+  "cssTheme": "California Coast",
+  "enabledCssSnippets": [
+    "snp"
+  ],
+  "textFontFamily": "Quicksand",
+  "interfaceFontFamily": "Quicksand"
+}

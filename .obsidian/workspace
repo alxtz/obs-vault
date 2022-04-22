@@ -1,0 +1,101 @@
+{
+  "main": {
+    "id": "06ac1bf06b75c01d",
+    "type": "split",
+    "children": [
+      {
+        "id": "25fe552172dabe02",
+        "type": "leaf",
+        "state": {
+          "type": "image",
+          "state": {
+            "file": "ch9/imgs/Pasted image 20220416041619.png"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2e9c5c892f71621",
+    "type": "split",
+    "children": [
+      {
+        "id": "833c2f64887c8f7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "478d614e098bb1e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "21aacb5c06a7bc5e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 190
+  },
+  "right": {
+    "id": "26113970d00a9af1",
+    "type": "split",
+    "children": [
+      {
+        "id": "63901cbad5343d46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9ee56ab98d18483",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ch9/imgs/Pasted image 20220416041619.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "25fe552172dabe02",
+  "lastOpenFiles": [
+    "ch9/imgs/Pasted image 20220416041619.png",
+    "ch9/ch9.1.md",
+    "ch9/ch9.2.md",
+    "ch9/ch9.3.md",
+    "ch9/ch9.4.md",
+    "ch9/ch9.0.md",
+    "ch9/imgs/Pasted image 20220416033416.png",
+    "2022-04-21.md",
+    "ch9/imgs/Pasted image 20220416052314.png",
+    "growise-specs/specs.md"
+  ]
+}
