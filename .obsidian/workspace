@@ -7,9 +7,11 @@
         "id": "25fe552172dabe02",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "ch9/imgs/Pasted image 20220416041619.png"
+            "file": "ch9/ch9.1.md",
+            "mode": "source",
+            "source": true
           }
         }
       }
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch9/imgs/Pasted image 20220416041619.png",
+                "file": "ch9/ch9.1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,15 +89,15 @@
   },
   "active": "25fe552172dabe02",
   "lastOpenFiles": [
-    "ch9/imgs/Pasted image 20220416041619.png",
     "ch9/ch9.1.md",
-    "ch9/ch9.2.md",
-    "ch9/ch9.3.md",
+    "ch9/ch9.5.md",
     "ch9/ch9.4.md",
     "ch9/ch9.0.md",
+    "ch9/imgs/Pasted image 20220416041619.png",
+    "ch9/ch9.2.md",
+    "ch9/ch9.3.md",
     "ch9/imgs/Pasted image 20220416033416.png",
     "2022-04-21.md",
-    "ch9/imgs/Pasted image 20220416052314.png",
-    "growise-specs/specs.md"
+    "ch9/imgs/Pasted image 20220416052314.png"
   ]
 }
