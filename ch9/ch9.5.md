@@ -1,1 +1,6 @@
-# TBD
+- loadIcons() 範例一
+	- 有一個 struct，所有 field 都 call GR 來取值（可以想成全 blocking）
+	- 可以想到的問題，也許是 other nil values of the map 可能會覆蓋其他值
+	- solution 1, 直接開個 MutEx lock
+	- 但這會把 read 也 block 住，所以另個做法可以把 RLock 和 Lock 混用
+	- 所以這比較像是一個只用在 run one times 情境的鎖，其實我覺得跟原本的需求有點差距了，等於是換個方法做。

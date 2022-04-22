@@ -4,5 +4,10 @@
   "promptDelete": false,
   "communityThemeSortOrder": "download",
   "newFileLocation": "current",
-  "attachmentFolderPath": "./imgs"
+  "attachmentFolderPath": "./imgs",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "absolute",
+  "showLineNumber": true,
+  "tabSize": 3
 }

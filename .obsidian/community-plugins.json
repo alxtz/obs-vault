@@ -3,5 +3,7 @@
   "obsidian-contextual-typography",
   "obsidian-hider",
   "obsidian-advanced-uri",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-electron-window-tweaker",
+  "obsidian-paste-image-rename"
 ]

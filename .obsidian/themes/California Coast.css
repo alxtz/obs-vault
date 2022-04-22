@@ -2346,6 +2346,9 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 .cc-truncated-explorer-titles .nav-folder-title-content {
   display: inline-block;
   width: 100%;
+}
+.cc-truncated-explorer-titles .nav-file-title-content:not(.is-being-renamed),
+.cc-truncated-explorer-titles .nav-folder-title-content:not(.is-being-renamed) {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
