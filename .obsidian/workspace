@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ch9/ch9.8.md",
+            "file": "ch9/ch9.7.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ch9/ch9.8.md",
+            "file": "ch9/ch9.7.md",
             "mode": "source",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ch9/ch9.8.md",
+                "file": "ch9/ch9.7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,14 +103,14 @@
   },
   "active": "dcedc8bd859f4fbe",
   "lastOpenFiles": [
-    "ch9/ch9.8.md",
     "ch9/ch9.7.md",
-    "ch9/imgs/ch9.6-0423043558.png",
-    "ch9/ch9.1.md",
+    "ch9/ch9.8.md",
     "ch9/ch9.6.md",
-    "ch9/ch9.0.md",
     "ch9/ch9.5.md",
     "ch9/ch9.4.md",
+    "ch9/imgs/ch9.6-0423043558.png",
+    "ch9/ch9.1.md",
+    "ch9/ch9.0.md",
     "ch9/imgs/Pasted image 20220416050402.png",
     "ch9/imgs/Pasted image 20220423022002.png"
   ]
