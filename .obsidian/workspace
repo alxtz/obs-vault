@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "growise-specs/specs.md",
-            "mode": "preview",
+            "mode": "source",
             "source": true
           }
         }
