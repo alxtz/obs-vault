@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "983b6e05b6490b5f",
+        "id": "22050b7cccf9106d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "growise-specs/specs.md",
+            "file": "ch10/ch10.7.md",
             "mode": "source",
             "source": true
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 153
+    "width": 241
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "growise-specs/specs.md",
+                "file": "ch10/ch10.7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "983b6e05b6490b5f",
+  "active": "22050b7cccf9106d",
   "lastOpenFiles": [
-    "growise-specs/specs.md",
-    "ch9/ch9.7.md",
-    "ch9/ch9.8.md",
-    "ch9/ch9.6.md",
-    "ch9/ch9.5.md",
-    "ch9/ch9.4.md",
-    "ch9/imgs/ch9.6-0423043558.png",
-    "ch9/ch9.1.md",
-    "ch9/ch9.0.md",
-    "ch9/imgs/Pasted image 20220416050402.png"
+    "ch10/ch10.7.md",
+    "ch10/ch10.6.md",
+    "ch10/ch10.5.md",
+    "ch10/ch10.4.md",
+    "ch10/ch10.3.md",
+    "ch10/ch10.2.md",
+    "ch10/ch10.1.md",
+    "ch10/ch10.0.md",
+    "ch9/imgs/Pasted image 20220416050402.png",
+    "ch9/imgs/Pasted image 20220416041619.png"
   ]
 }
