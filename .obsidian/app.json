@@ -9,5 +9,9 @@
   "alwaysUpdateLinks": true,
   "newLinkFormat": "absolute",
   "showLineNumber": true,
-  "tabSize": 3
+  "tabSize": 3,
+  "foldIndent": true,
+  "lineWrap": true,
+  "strictLineBreaks": true,
+  "readableLineLength": false
 }
