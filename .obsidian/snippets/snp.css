@@ -28,4 +28,26 @@ body {
 
 :root {
   --line-width: 100% !important;
+
+  /* --h1: 2em;
+  --h2: 1.6em;
+  --h3: 1.37em;
+  --h4: 1.25em;
+  --h5: 1.12em;
+  --h6: 1.12em; */
+  --h1: 1.12em;
+  --h2: 1.12em;
+  --h3: 1.12em;
+  --h4: 1.12em;
+  --h5: 1.12em;
+  --h6: 1.12em;
+}
+
+.markdown-source-view.mod-cm6 .cm-fold-indicator .collapse-indicator {
+  left: 4px;
+  top: -3px;
+}
+
+.cm-s-obsidian .HyperMD-list-line {
+  padding-top: 0em;
 }
