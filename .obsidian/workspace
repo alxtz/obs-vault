@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-04.md",
+            "file": "FAQ.md",
             "mode": "source",
             "source": true
           }
@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-04.md",
+            "file": "FAQ.md",
             "mode": "preview",
             "source": true
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-08-04.md",
+                "file": "FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-08-04.md"
+                "file": "FAQ.md"
               }
             }
           }
@@ -115,6 +115,7 @@
   },
   "active": "22050b7cccf9106d",
   "lastOpenFiles": [
+    "FAQ.md",
     "2022-08-04.md",
     "idem/2.md",
     "idem/index.md",
@@ -123,7 +124,6 @@
     "2022-05-03.md",
     "ch10/ch10.7.md",
     "ch10/ch10.5.md",
-    "ch10/ch10.3.md",
-    "ch10/ch10.1.md"
+    "ch10/ch10.3.md"
   ]
 }
