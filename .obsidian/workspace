@@ -25,7 +25,7 @@
           "type": "markdown",
           "state": {
             "file": "ts-faq/1.md",
-            "mode": "source",
+            "mode": "preview",
             "source": true
           }
         },
@@ -113,7 +113,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "22050b7cccf9106d",
+  "active": "387e07e3be6e6519",
   "lastOpenFiles": [
     "FAQ.md",
     "ts-faq/1.md",
