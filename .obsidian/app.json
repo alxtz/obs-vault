@@ -13,5 +13,6 @@
   "foldIndent": true,
   "lineWrap": true,
   "strictLineBreaks": true,
-  "readableLineLength": false
+  "readableLineLength": false,
+  "useTab": false
 }
