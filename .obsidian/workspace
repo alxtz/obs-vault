@@ -6,7 +6,7 @@
       {
         "id": "22050b7cccf9106d",
         "type": "leaf",
-        "dimension": 62.153602533650044,
+        "dimension": 58.90736342042755,
         "state": {
           "type": "markdown",
           "state": {
@@ -20,7 +20,7 @@
       {
         "id": "387e07e3be6e6519",
         "type": "leaf",
-        "dimension": 37.84639746634996,
+        "dimension": 41.09263657957244,
         "state": {
           "type": "markdown",
           "state": {
@@ -113,17 +113,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "387e07e3be6e6519",
+  "active": "22050b7cccf9106d",
   "lastOpenFiles": [
-    "2022-08-11.md",
+    "FAQ.md",
     "ts-faq/1.md",
+    "2022-08-11.md",
     "2022-05-03.md",
     "2022-04-21.md",
     "idem/index.md",
     "idem/2.md",
     "growise-specs/specs.md",
     "ch10/ch10.7.md",
-    "ch10/ch10.6.md",
-    "ch10/ch10.5.md"
+    "ch10/ch10.6.md"
   ]
 }
