@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-16.md",
+            "file": "ts-faq/1.md",
             "mode": "source",
             "source": true
           }
@@ -24,8 +24,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-16.md",
-            "mode": "preview",
+            "file": "ts-faq/1.md",
+            "mode": "source",
             "source": true
           }
         },
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-08-16.md",
+                "file": "ts-faq/1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-08-16.md"
+                "file": "ts-faq/1.md"
               }
             }
           }
@@ -115,15 +115,15 @@
   },
   "active": "22050b7cccf9106d",
   "lastOpenFiles": [
-    "ts-faq/1.md",
     "FAQ.md",
+    "2022-08-16.md",
+    "ts-faq/1.md",
     "2022-08-11.md",
     "2022-05-03.md",
     "2022-04-21.md",
     "idem/index.md",
     "idem/2.md",
     "growise-specs/specs.md",
-    "ch10/ch10.7.md",
-    "ch10/ch10.6.md"
+    "ch10/ch10.7.md"
   ]
 }
