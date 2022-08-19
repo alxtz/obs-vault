@@ -1,7 +1,3 @@
-如何在 TypeORM 裡產生 n+1 問題
-
----
-
 ![](imgs/type-orm-n+1-0819224328.png)
 
 正好在某 discord 群組看到的 N+1 問題之討論
