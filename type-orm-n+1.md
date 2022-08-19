@@ -119,4 +119,4 @@ export class CompanyService {
 ### 結語
 
 - Ruby 這類的語言，他們 blocking statement 跟一般語法表面上看不出來，也許是導致 N+1 問題更難找到的原因
-- TypeORM 裡面要發生 N+1 問題滿難的，要你同時使用 lazy 和 `@OneToMany` + `Promise<Entity>` 這兩種寫法，並且還要能看不出 `await` 被拿來 interate，這些都滿容易觀察出來，也容易透過專案設置/coding style 來防呆的
+- TypeORM 裡面要發生 N+1 問題滿難的，要你同時使用 lazy 和 `@OneToMany` + `Promise<Entity>` 這兩種寫法，並且還要能看不出 `await` 被拿來 iterate，這些都滿容易觀察出來，也容易透過專案設置/coding style 來防呆的
