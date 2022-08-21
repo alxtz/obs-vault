@@ -84,8 +84,55 @@
 - 我們並沒有發現這個 issue; 原因是這不是一個在 MQ 就可以偵測到的錯誤 event。我們幾乎花了一個月才找到這問題。這導致我們的 fraud detection system 在這段時間都 misbehavior，由於他切實的需要準確的資料來運作
 
 ```
-note: 這感覺比較像是程式寫錯/外部 error 沒 handle 好的問題，要說任何 pattern 能解決他，實在是有點怪
+note: 這感覺比較像是程式寫錯/外部 error 沒 handle 好的問題，要說任何 pattern 能解決他，實在是有點怪; 我也很懷疑是否真的存在那麼死/規定嚴謹的 pattern 能解決此問題
+
+但要說這個真的不會有任何幫助，我覺得也不一定
+
+畢竟在許多 event based 的架構中，雖然定義好了 topic 的型態/行為為何
+
+但對於系統中本身 topic 的 breaking change，或是發送 topic/忘了發送 topic/topic 的 orchestration 出問題的情況，是真的滿沒有規範/工具/特定的模式來知道如何處理, 該處理到何種程度, 預設該如何監控/寫測試的; 所以提出這問題也算是很有幫助
 ```
 
+- 這狀況觀測上的影響，是在我們 internal biz metric 看到，並且 chargeback rate 發生數個月後才被發現
+
+[stakeholders]
+- 擁有者：Fraud(xenshield team)
+
+[stakeholders.1st-priority]
+> to have consistency on receiving as same message as the transaction that is being processed by each money-in channel
+
+在每個 txn 被處理時，都該有機制維持/觀測 event 被送出去的 consistency（並且在各個 money-in channel 都要實作
+
+[stakeholders.2nd-priority]
+> to receive the message as soon as possible for fraud feature aggregation purpose
+
+msg/event 該能盡早/儘快的被 fraud feature 收存到
+
+[answer]
+- SY 想要的解答/工具/手法應該可被統整成以下兩點
+   1. 擁有一個夠 robust/抗壓/抗 error 的 msg 系統; 過往其實也有 RabbitMQ 一掛掉，導致 xendit 整體出現 downtime 的狀況
+   2. 以例子出發，engineering ops 團隊（這的定位是什麼, 是 half ops, half dev）; ops 團隊可以表列一些 app/service 是遵照「msg 優先」pattern 的; （並且會在 onboarding 指導？ 
 
 ---
+
+### Next Steps
+
+---
+
+### 資源表
+
+> Slack Channel: `#scalable-service-messaging`
+
+### Our Current Solutions
+
+---
+
+### rabbitMQ
+
+> rabbitMQ is our primary messaging solution
+
+> Pros (in no particular order)
+> 1. AMQP compliant.
+> 2. Mature project.
+
+> Cons (in no particular order)
