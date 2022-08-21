@@ -4,32 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "22050b7cccf9106d",
+        "id": "61dce9a5c104c17d",
         "type": "leaf",
-        "dimension": 58.90736342042756,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-04-21.md",
+            "file": "q-kafka-learnings/gdoc-s-s-m/index.md",
             "mode": "source",
             "source": true
           }
         },
-        "group": "afed745b6b8e2da1"
+        "group": "e43aa93819667ffb"
       },
       {
-        "id": "387e07e3be6e6519",
+        "id": "db1498726bfd5a11",
         "type": "leaf",
-        "dimension": 41.09263657957244,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-04-21.md",
+            "file": "q-kafka-learnings/gdoc-s-s-m/index.md",
             "mode": "preview",
             "source": true
           }
         },
-        "group": "afed745b6b8e2da1"
+        "group": "e43aa93819667ffb"
       }
     ],
     "direction": "vertical"
@@ -69,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241
+    "width": 212.0214729309082
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-04-21.md",
+                "file": "q-kafka-learnings/gdoc-s-s-m/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-04-21.md"
+                "file": "q-kafka-learnings/gdoc-s-s-m/index.md"
               }
             }
           }
@@ -113,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "22050b7cccf9106d",
+  "active": "db1498726bfd5a11",
   "lastOpenFiles": [
-    "type-orm-n+1.md",
-    "Untitled.md",
-    "ts-cond-type-note.md",
+    "q-kafka-learnings/intro.md",
+    "q-kafka-learnings/gdoc-s-s-m/index.md",
     "2022-08-16.md",
-    "ts-faq/1.md",
-    "FAQ.md",
     "2022-08-11.md",
-    "2022-05-03.md",
+    "_archive/2022-05-03.md",
+    "2022-08-04.md",
     "2022-04-21.md",
-    "idem/index.md"
+    "idem/index.md",
+    "idem/2.md",
+    "_archive/growise-specs/specs.md"
   ]
 }
