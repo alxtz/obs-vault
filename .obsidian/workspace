@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "q-kafka-learnings/gdoc-s-s-m/index.md",
+            "file": "2022-08-23.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "q-kafka-learnings/gdoc-s-s-m/index.md",
+            "file": "2022-08-23.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "q-kafka-learnings/gdoc-s-s-m/index.md",
+                "file": "2022-08-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "q-kafka-learnings/gdoc-s-s-m/index.md"
+                "file": "2022-08-23.md"
               }
             }
           }
@@ -111,10 +111,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "478d614e098bb1e5",
+  "active": "61dce9a5c104c17d",
   "lastOpenFiles": [
-    "q-kafka-learnings/intro.md",
     "q-kafka-learnings/gdoc-s-s-m/index.md",
+    "q-kafka-learnings/intro.md",
     "2022-08-16.md",
     "2022-08-11.md",
     "_archive/2022-05-03.md",
