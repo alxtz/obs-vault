@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-23.md",
+            "file": "2022-08-26.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-08-23.md",
+            "file": "2022-08-26.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-08-23.md",
+                "file": "2022-08-26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-08-23.md"
+                "file": "2022-08-26.md"
               }
             }
           }
@@ -113,15 +113,15 @@
   },
   "active": "61dce9a5c104c17d",
   "lastOpenFiles": [
-    "q-kafka-learnings/gdoc-s-s-m/index.md",
+    "ts-cond-type-note.md",
+    "type-orm-n+1.md",
     "q-kafka-learnings/intro.md",
+    "2022-08-23.md",
+    "q-kafka-learnings/gdoc-s-s-m/index.md",
     "2022-08-16.md",
     "2022-08-11.md",
     "_archive/2022-05-03.md",
     "2022-08-04.md",
-    "2022-04-21.md",
-    "idem/index.md",
-    "idem/2.md",
-    "_archive/growise-specs/specs.md"
+    "2022-04-21.md"
   ]
 }

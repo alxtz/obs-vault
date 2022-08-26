@@ -36,3 +36,5 @@
 追加，有夠難的 https://github.com/type-challenges/type-challenges
 
 我只想看懂 https://github.com/type-challenges/type-challenges/issues?q=label%3A4037+label%3Aanswer
+
+https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/request/index.d.ts
