@@ -19,7 +19,7 @@
 
 ---
 
-### Section 1
+### [Section 1] Conditional Types 介紹  & 使用範例
 
 到這段為止的範例，都只是介紹基礎語法，Section 1 也只是介紹了 overload 語法，轉換成 conditional type 會怎麼寫
 
@@ -27,7 +27,7 @@
 
 ---
 
-### Section 2
+### [Section 2] 以「制約」（Constraints）為底的實作方式
 
 這段比較是在說明，generic constriant vs conditional types 的寫法，會帶來的行為/功能/目標上的差異
 
@@ -35,3 +35,11 @@
 - conditional type 則是可以根據給的型別，來實作出任何可能的 mapping 邏輯，回傳正常值，會是 rejected type `never` 其實都可以
 
 ![](cond-types/__imgs/cond-index-0827035217.png)
+
+### [Section 2.1] `infer` keyward
+
+雖然他的描述有點像是在介紹 type extraction 的本質，但我覺得 TS 本身型別系統的 conceptual integrity 不太好，有滿多型別工具都是零散的，所以 type extraction 其實不算是一個有被完整支援/是著擴充到整個語言的功能;
+
+我覺得讀這小節主要用來理解 `infer` 這個語法的 meaning，能夠讀懂他是闡述了什麼邏輯就好; 至於想讀懂
+
+![](cond-types/__imgs/cond-index-0828190822.png)

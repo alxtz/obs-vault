@@ -7,5 +7,6 @@
     "snp"
   ],
   "textFontFamily": "Quicksand",
-  "interfaceFontFamily": "Quicksand"
+  "interfaceFontFamily": "Quicksand",
+  "baseFontSize": 21
 }
