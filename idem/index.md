@@ -3,7 +3,7 @@ https://medusajs.com/blog/idempotency-nodejs-express-open-source/
 > This post covers how idempotency keys are used in [Medusa](https://www.medusajs.com/) and how you can implement your own idempotency key logic in a NodeJS application to make your API more robust. This post and the implementation discussed here are inspired by [this article](https://brandur.org/idempotency-keys) by Brandur.
 
 總之 Medusa 看起來是一個 open source headless commerce store, 比肩 shopify
-![](idem/imgs/index-0616144845.png)
+![](idem/__imgs/index-0616144845.png)
 
 不過 shopify 其實有滿多金流，實際的 integration 跟需要開發人力的東西（也許還有 BD），真的找得出 OS 的替代嗎
 

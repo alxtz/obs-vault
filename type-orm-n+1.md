@@ -1,4 +1,4 @@
-![](imgs/type-orm-n+1-0819224328.png)
+![](__imgs/type-orm-n+1-0819224328.png)
 
 正好在某 discord 群組看到的 N+1 問題之討論
 
@@ -16,7 +16,7 @@
 
 但當 N+1 問題發生時，當你去 explain/debug 時，你會發現實際跑的 sql statement 數量是 A.length + 1 https://www.youtube.com/watch?v=uCbFMZYQbxE
 
-![](imgs/type-orm-n+1-0819224851.png)
+![](__imgs/type-orm-n+1-0819224851.png)
 
 原因是 B 可能因為你工具的內部實作，被解析成每個都是要獨立去抓的 relation，而導致實作上不是 join，而是獨立抓來，並且 assign 成 `A.B`
 

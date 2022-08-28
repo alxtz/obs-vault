@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ts-cond-type-note.md",
+            "file": "cond-types/cond-index.md",
             "mode": "source",
             "source": true
           }
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "ts-cond-type-note.md",
+            "file": "cond-types/cond-index.md",
             "mode": "preview",
             "source": true
           }
@@ -83,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ts-cond-type-note.md",
+                "file": "cond-types/cond-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ts-cond-type-note.md"
+                "file": "cond-types/cond-index.md"
               }
             }
           }
@@ -111,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "61dce9a5c104c17d",
+  "active": "db1498726bfd5a11",
   "lastOpenFiles": [
+    "cond-types/__imgs/cond-index-0827034740.png",
+    "_archive/2022-05-03.md",
     "cond-types/cond-index.md",
-    "2022-08-26.md",
+    "q-kafka-learnings/gdoc-s-s-m/index.md",
     "ts-cond-type-note.md",
+    "2022-08-26.md",
     "type-orm-n+1.md",
     "q-kafka-learnings/intro.md",
     "2022-08-23.md",
-    "q-kafka-learnings/gdoc-s-s-m/index.md",
-    "2022-08-16.md",
-    "2022-08-11.md",
-    "_archive/2022-05-03.md"
+    "2022-08-16.md"
   ]
 }

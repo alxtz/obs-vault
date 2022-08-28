@@ -23,7 +23,7 @@
 
 到這段為止的範例，都只是介紹基礎語法，Section 1 也只是介紹了 overload 語法，轉換成 conditional type 會怎麼寫
 
-![](cond-types/imgs/cond-index-0827034740.png)
+![](cond-types/__imgs/cond-index-0827034740.png)
 
 ---
 
@@ -34,4 +34,4 @@
 - generic constriant 比較接近作 validation
 - conditional type 則是可以根據給的型別，來實作出任何可能的 mapping 邏輯，回傳正常值，會是 rejected type `never` 其實都可以
 
-![](cond-types/imgs/cond-index-0827035217.png)
+![](cond-types/__imgs/cond-index-0827035217.png)

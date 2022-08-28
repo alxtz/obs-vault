@@ -67,7 +67,7 @@
 [question.question]
 - [提問] 需不需要設計一個方式/流程，來將 event 推展成 1st class citizen; 我們有這樣的計畫嗎？為什麼/為什麼不？
 
-![](q-kafka-learnings/gdoc-s-s-m/imgs/index-0822050752.png)
+![](q-kafka-learnings/gdoc-s-s-m/__imgs/index-0822050752.png)
 
 [case-study]
 > One real incident that has happened before by using our current tech stack
