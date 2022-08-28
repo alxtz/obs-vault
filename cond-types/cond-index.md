@@ -52,3 +52,46 @@
 - 「比較」實務的用途，用來實作 type factory/generics，作為 type extraction 的用途
    - https://www.youtube.com/watch?v=ObZQM7bx81c
 
+而實際上 2.1 的範例也沒講到太多什麼，只是講 return type 是如何實作的（我覺得是個對 infer 滿差的介紹就是）
+
+[note]
+infer 這個型別也實在是十分少見，在以下常用 lib 的型別書寫裡，都沒出現 infer
+
+- `request/index.d.ts` [https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/request/index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/request/index.d.ts "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/request/index.d.ts")
+- `axios/index.d.ts` [https://github.com/axios/axios/blob/v1.x/index.d.ts](https://github.com/axios/axios/blob/v1.x/index.d.ts "https://github.com/axios/axios/blob/v1.x/index.d.ts")
+- `express/index.d.ts` [https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/express/ts4.0/index.d.ts](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/express/ts4.0/index.d.ts "https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/express/ts4.0/index.d.ts")
+- `moment/index.d.ts` [https://github.com/moment/moment/blob/develop/moment.d.ts](https://github.com/moment/moment/blob/develop/moment.d.ts "https://github.com/moment/moment/blob/develop/moment.d.ts")
+
+### [Section 3] Distributive Conditional Types
+
+![](cond-types/__imgs/cond-index-0829025252.png)
+
+其實我不太習慣 TS 將各個型別功能，都分別取一個 feature 名稱（像是叫這個 Distributive Conditional Types, 以及之前在 FAQ 裡面看到的 homomorphic mapped types）
+
+這其實會讓我有點覺得 TS 不存在一個能統一貫徹他型別系統的設計理念，而只是根據有什麼需求，就發明一個新的 behavior/whac a mole; 這樣對初學者不太友善，也會對這語言的持續發展/pattern develop 有負面影響
+
+但總之，這個 D-C-T 跟 H-M-T 其實問題，或概念是滿像的，consider the following
+
+```typescript
+ToArray<string | number>;
+```
+
+ToArray<α> 這個型別，會產生一個裡面元素都是 α 的陣列（α[]）;
+
+但由於 α 是一個 union type，你對這個型別所產生的結果，其實字面上可以有兩種解讀
+
+α[] 可以是 `string[] | number[]` 這個型別，只分別允許 string 或 number 做為 child，而不能共存
+
+α[] 也可以被解讀成 `Array<string | number>`，用來表示一個 string, number 能共存的陣列型別
+
+而 TS 預設的行為是解析成前者，將 union type 的各種可能分別做（數學上的）映射，而產生另個 union type
+
+想要後者的 behavior 可以這樣寫
+
+```typescript
+type ToArrayNonDist<Type> = [Type] extends [any] ? Type[] : never;
+```
+
+---
+
+### 結語
