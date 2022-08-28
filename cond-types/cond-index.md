@@ -40,6 +40,15 @@
 
 雖然他的描述有點像是在介紹 type extraction 的本質，但我覺得 TS 本身型別系統的 conceptual integrity 不太好，有滿多型別工具都是零散的，所以 type extraction 其實不算是一個有被完整支援/是著擴充到整個語言的功能;
 
-我覺得讀這小節主要用來理解 `infer` 這個語法的 meaning，能夠讀懂他是闡述了什麼邏輯就好; 至於想讀懂
+我覺得讀這小節主要用來理解 `infer` 這個語法的 meaning，能夠讀懂他是闡述了什麼邏輯就好; 至於裡解這段 code 為什麼要用 infer，infer 代表了何種 pattern，以及 infer 到底好不好，這個問題應該要解釋太久，而且答案也滿難的
 
 ![](cond-types/__imgs/cond-index-0828190822.png)
+
+- 裡解 infer 基本上是什麼
+   - https://www.youtube.com/watch?v=TGGNWcXx9wQ
+- 介紹幾個經典的 type challenge，並用 infer 來實作他
+   - https://www.youtube.com/watch?v=3Fxoxg_FMpg
+   - 更多 type challenge https://www.youtube.com/watch?v=Ikl_R-BMKCc
+- 「比較」實務的用途，用來實作 type factory/generics，作為 type extraction 的用途
+   - https://www.youtube.com/watch?v=ObZQM7bx81c
+
