@@ -94,4 +94,64 @@ type ToArrayNonDist<Type> = [Type] extends [any] ? Type[] : never;
 
 ---
 
+### [補充] 關於 infer 的設計
+
+[context]
+
+![](cond-types/__imgs/cond-index-0829033723.png)
+
+[infer 幾乎都可以用其他寫法來替代的範例]
+
+https://hackmd.io/7jd5BFiIQGqOEoHl5kobUA
+
+[在其他語言，好用的 pattern matching/type, val extraction 的寫法]
+
+https://elixirschool.com/en/lessons/basics/pattern_matching
+
+```elixir
+greeting = "Hello"
+# [output] "Hello"
+
+greet = fn
+  (^greeting, name) -> "Hi #{name}"
+  (greeting, name) -> "#{greeting}, #{name}"
+end
+# [output] #Function<xxx/2 in :erl_eval.expr/5>
+
+greet.("Hello", "Sean")
+# [output] "Hi Sean"
+
+greet.("Mornin'", "Sean")
+# [output] "Mornin', Sean"
+
+greeting()
+# [output] "Hello"
+```
+
+像是這些語言，想寫 swtich-case/取值的操作，function 定義出來就直接包含了實作 & 型別了，所以不存在需要幫他寫這種 `infer U` 行為的需求。（所以這樣 infer 只剩下 type factor 的用途）
+
+[ReasonML]
+https://reasonml.github.io/docs/en/pattern-matching
+
+滿多範例不算看得很懂，他 switch 好像不只可以用在 val 上來作為一個 imperative statement，他好像也可以來 switch 一個 function/function call/type，來同時宣告 + 定義行為
+
+[tc39 proposal-pattern-matching]
+
+ECMAScript 也有相關 proposal https://github.com/tc39/proposal-pattern-matching
+
+https://github.com/zhengxiaoyao0716/js-pattern-match
+
+[ts-pattern]
+
+https://dev.to/gvergnaud/bringing-pattern-matching-to-typescript-introducing-ts-pattern-v3-0-o1k
+
+[Intensive reading of "Typescript infer keywords"]
+
+https://segmentfault.com/a/1190000040558014/en
+
+[有用到 infer 的 source code]
+https://github.com/DefinitelyTyped/DefinitelyTyped/blob/71881b0d35d22488cea3fa700b6efc2e61267da4/types/react/index.d.ts#L826
+
+---
+
 ### 結語
