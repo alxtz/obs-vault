@@ -4,30 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "61dce9a5c104c17d",
+        "id": "df31607dbf697ae5",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "cond-types/cond-index.md",
-            "mode": "source",
-            "source": true
-          }
-        },
-        "group": "e43aa93819667ffb"
-      },
-      {
-        "id": "db1498726bfd5a11",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "cond-types/cond-index.md",
-            "mode": "preview",
-            "source": true
-          }
-        },
-        "group": "e43aa93819667ffb"
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -83,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cond-types/cond-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,9 +80,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "cond-types/cond-index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -111,11 +90,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "db1498726bfd5a11",
+  "active": "df31607dbf697ae5",
   "lastOpenFiles": [
+    "cond-types/cond-index.md",
     "cond-types/__imgs/cond-index-0827034740.png",
     "_archive/2022-05-03.md",
-    "cond-types/cond-index.md",
     "q-kafka-learnings/gdoc-s-s-m/index.md",
     "ts-cond-type-note.md",
     "2022-08-26.md",
