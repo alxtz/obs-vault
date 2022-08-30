@@ -155,3 +155,30 @@ https://github.com/DefinitelyTyped/DefinitelyTyped/blob/71881b0d35d22488cea3fa70
 ---
 
 ### 結語
+
+這個章節講 conditional types，從 TS 的環境來理解，這個功能主要是
+
+1. 讓你能用更彈性/branching 的風格來取代 function overloading 的寫法
+2. 讓你能實作更精巧的 type system，來確切描述 function 會有的 ouput type 行為
+   - `infer keyword` 為此項的加強，但我們也同時提到，`infer` 這個關鍵字在其他語言裡其實並不一定常見，由於他們可能天生就有 pattern matching 
+3. 實作精巧的 type factory
+   - 常見於函式庫中
+
+值得一提的是，`extends` 這個常會被大家跟 `interface extends` 或 `class extends` [搞混](https://ithelp.ithome.com.tw/m/articles/10266542)
+
+而在早期的 [Constraint Types Proposal #13257](https://github.com/Microsoft/TypeScript/issues/13257) 裡，也不泛有有人提出像是 `is`, `when`, `where` 等寫法
+
+```typescript
+let other: (value is number ? string : value is string ? boolean)
+
+type T<A> = string when A is number && A % 2 === 0;
+
+type CoerceToValue<T> = switch(T)  { 
+     case<V> Thenable<V>: V;
+     default: T;
+}  
+
+```
+
+但後來可能是為了語法實作難易度/為了精簡語言，最後只留下了 `extends` 這個作法，但我們仍能從 
+[dead-claudia/constraint-types.md](https://gist.github.com/dead-claudia/25c0c25b05548a220d1c7e93a3ff35f5) 來一窺早期的討論，以及聯想到當今 TS 的限制

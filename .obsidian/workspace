@@ -7,9 +7,27 @@
         "id": "df31607dbf697ae5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "cond-types/cond-index.md",
+            "mode": "source",
+            "source": true
+          }
+        },
+        "group": "e8ac43076a1f5fd7"
+      },
+      {
+        "id": "1f3b6e3800954cff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "cond-types/cond-index.md",
+            "mode": "preview",
+            "source": true
+          }
+        },
+        "group": "e8ac43076a1f5fd7"
       }
     ],
     "direction": "vertical"
@@ -49,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 212.0214729309082
+    "width": 159.0281219482422
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -65,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "cond-types/cond-index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -80,7 +99,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "cond-types/cond-index.md"
+              }
             }
           }
         ]
@@ -90,8 +111,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "df31607dbf697ae5",
+  "active": "1f3b6e3800954cff",
   "lastOpenFiles": [
+    "cond-types/ㄌ.md",
     "cond-types/cond-index.md",
     "cond-types/__imgs/cond-index-0827034740.png",
     "_archive/2022-05-03.md",
@@ -100,7 +122,6 @@
     "2022-08-26.md",
     "type-orm-n+1.md",
     "q-kafka-learnings/intro.md",
-    "2022-08-23.md",
-    "2022-08-16.md"
+    "2022-08-23.md"
   ]
 }
