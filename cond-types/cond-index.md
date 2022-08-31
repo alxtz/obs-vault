@@ -178,3 +178,9 @@ type CoerceToValue<T> = switch(T)  {
 
 但後來可能是為了語法實作難易度/為了精簡語言，最後只留下了 `extends` 這個作法，但我們仍能從 
 [dead-claudia/constraint-types.md](https://gist.github.com/dead-claudia/25c0c25b05548a220d1c7e93a3ff35f5) 來一窺早期的討論，以及聯想到當今 TS 的限制
+
+---
+
+### 後記
+
+![](cond-types/__imgs/cond-index-0901043531.png)
