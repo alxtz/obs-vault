@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "df31607dbf697ae5",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "2022-09-15.md",
-            "mode": "source",
-            "source": true
-          }
-        },
-        "group": "e8ac43076a1f5fd7"
-      },
-      {
         "id": "1f3b6e3800954cff",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-09-15.md",
+            "file": "2022-08-16.md",
             "mode": "preview",
             "source": true
           }
-        },
-        "group": "e8ac43076a1f5fd7"
+        }
       }
     ],
     "direction": "vertical"
@@ -67,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 159.0281219482422
+    "width": 863.0491371154785
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -83,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-09-15.md",
+                "file": "2022-08-16.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-09-15.md"
+                "file": "2022-08-16.md"
               }
             }
           }
@@ -113,15 +99,15 @@
   },
   "active": "1f3b6e3800954cff",
   "lastOpenFiles": [
+    "2022-08-23.md",
+    "2022-09-16.md",
+    "2022-09-15.md",
+    "2022-08-26.md",
+    "2022-08-16.md",
+    "type-orm-n+1.md",
+    "ts-cond-type-note.md",
     "cond-types/cond-index.md",
     "cond-types/ㄌ.md",
-    "cond-types/__imgs/cond-index-0827034740.png",
-    "_archive/2022-05-03.md",
-    "q-kafka-learnings/gdoc-s-s-m/index.md",
-    "ts-cond-type-note.md",
-    "2022-08-26.md",
-    "type-orm-n+1.md",
-    "q-kafka-learnings/intro.md",
-    "2022-08-23.md"
+    "cond-types/__imgs/cond-index-0827034740.png"
   ]
 }
