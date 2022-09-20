@@ -7,11 +7,9 @@
         "id": "1f3b6e3800954cff",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "2022-09-18.md",
-            "mode": "preview",
-            "source": true
+            "file": "__imgs/2022-08-16-0816174347.png"
           }
         }
       }
@@ -53,7 +51,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 863.0491371154785
+    "width": 272
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -69,7 +67,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-09-18.md",
+                "file": "__imgs/2022-08-16-0816174347.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +84,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-09-18.md"
+                "file": "__imgs/2022-08-16-0816174347.png"
               }
             }
           }
@@ -99,6 +97,8 @@
   },
   "active": "1f3b6e3800954cff",
   "lastOpenFiles": [
+    "2022-09-20.md",
+    "2022-09-18.md",
     "2022-08-16.md",
     "2022-08-23.md",
     "2022-09-16.md",
@@ -106,8 +106,6 @@
     "2022-08-26.md",
     "type-orm-n+1.md",
     "ts-cond-type-note.md",
-    "cond-types/cond-index.md",
-    "cond-types/ㄌ.md",
-    "cond-types/__imgs/cond-index-0827034740.png"
+    "cond-types/cond-index.md"
   ]
 }
