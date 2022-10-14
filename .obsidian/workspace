@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2022-10-01.md",
+            "file": "2022-10-14.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-10-01.md",
+                "file": "2022-10-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-10-01.md"
+                "file": "2022-10-14.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "0cf1fbba4ecb2514",
   "lastOpenFiles": [
-    "DB SQL optimization readings.md",
-    "2022-09-29.md",
-    "2022-09-28.md",
-    "2022-09-27.md",
-    "__imgs/2022-09-21-0921050720.png",
-    "2022-09-21.md",
-    "ch9/ch9.1.md",
-    "ch9/ch9.3.md",
     "ch9/ch9.5.md",
-    "ch10/ch10.3.md"
+    "ch9/ch9.3.md",
+    "ch9/ch9.0.md",
+    "q-kafka-learnings/gdoc-s-s-m/index.md",
+    "idem/index.md",
+    "2022-08-16.md",
+    "DB SQL optimization readings.md",
+    "2022-10-01.md",
+    "2022-09-29.md",
+    "2022-09-28.md"
   ]
 }
