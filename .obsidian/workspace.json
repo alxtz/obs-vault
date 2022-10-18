@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "06ac1bf06b75c01d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c3128144df588c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0cf1fbba4ecb2514",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-10-14.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "70cd47602f5dc5a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-10-18.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c2e9c5c892f71621",
+    "type": "split",
+    "children": [
+      {
+        "id": "833c2f64887c8f7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "478d614e098bb1e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "21aacb5c06a7bc5e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 272
+  },
+  "right": {
+    "id": "26113970d00a9af1",
+    "type": "split",
+    "children": [
+      {
+        "id": "63901cbad5343d46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9ee56ab98d18483",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-10-18.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "eb5e8a3822cef5b1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022-10-18.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "70cd47602f5dc5a8",
+  "lastOpenFiles": [
+    "ch9/ch9.5.md",
+    "ch9/ch9.3.md",
+    "ch9/ch9.0.md",
+    "q-kafka-learnings/gdoc-s-s-m/index.md",
+    "idem/index.md",
+    "2022-08-16.md",
+    "DB SQL optimization readings.md",
+    "2022-10-01.md",
+    "2022-09-29.md",
+    "2022-09-28.md"
+  ]
+}

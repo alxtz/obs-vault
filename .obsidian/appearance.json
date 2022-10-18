@@ -8,5 +8,6 @@
   ],
   "textFontFamily": "Quicksand",
   "interfaceFontFamily": "Quicksand",
-  "baseFontSize": 21
+  "baseFontSize": 21,
+  "accentColor": ""
 }
