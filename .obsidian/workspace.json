@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022-10-18.md",
+                "file": "DB SQL optimization readings.md",
                 "mode": "source",
                 "source": true
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-10-18.md",
+                "file": "DB SQL optimization readings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-10-18.md"
+                "file": "DB SQL optimization readings.md"
               }
             }
           }
@@ -123,6 +123,7 @@
   },
   "active": "70cd47602f5dc5a8",
   "lastOpenFiles": [
+    "2022-10-18.md",
     "ch9/ch9.5.md",
     "ch9/ch9.3.md",
     "ch9/ch9.0.md",
@@ -131,7 +132,6 @@
     "2022-08-16.md",
     "DB SQL optimization readings.md",
     "2022-10-01.md",
-    "2022-09-29.md",
-    "2022-09-28.md"
+    "2022-09-29.md"
   ]
 }
