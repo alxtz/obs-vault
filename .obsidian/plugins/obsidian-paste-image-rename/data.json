@@ -3,5 +3,5 @@
   "dupNumberAtStart": false,
   "dupNumberDelimiter": "-",
   "autoRename": true,
-  "handleAllImages": false
+  "handleAllImages": true
 }

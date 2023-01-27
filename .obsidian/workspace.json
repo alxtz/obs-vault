@@ -13,26 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shu-can/ep-0.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "36c6d22a0f0e4816",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "shu-can/ep-1.md",
+                "file": "DDIA/ch1.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "22b666017978bac0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f42f9c2700af0a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DDIA/ch1.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "shu-can/ep-1.md",
+                "file": "DDIA/ch1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "shu-can/ep-1.md"
+                "file": "DDIA/ch1.md"
               }
             }
           }
@@ -128,17 +133,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "36c6d22a0f0e4816",
+  "active": "0f42f9c2700af0a8",
   "lastOpenFiles": [
-    "shu-can/ep-0.md",
-    "shu-can/ep-1.md",
-    "ts-faq/1.md",
-    "2023-01-21.md",
-    "2022-09-21.md",
-    "2022-09-16.md",
-    "2022-09-15.md",
-    "2022-08-26.md",
     "2022-08-16.md",
-    "2022-08-23.md"
+    "2022-08-23.md",
+    "2022-08-26.md",
+    "2022-09-15.md",
+    "2023-01-15.md",
+    "2022-10-23.md",
+    "2022-10-18.md",
+    "2022-09-27.md",
+    "2022-09-28.md",
+    "DDIA/ch1.md"
   ]
 }
