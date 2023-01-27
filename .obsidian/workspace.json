@@ -6,6 +6,7 @@
       {
         "id": "91476310c59e34c6",
         "type": "tabs",
+        "dimension": 41.17647058823529,
         "children": [
           {
             "id": "a8f218427c23d26b",
@@ -24,6 +25,7 @@
       {
         "id": "22b666017978bac0",
         "type": "tabs",
+        "dimension": 58.82352941176471,
         "children": [
           {
             "id": "0f42f9c2700af0a8",
@@ -133,7 +135,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0f42f9c2700af0a8",
+  "active": "a8f218427c23d26b",
   "lastOpenFiles": [
     "2022-08-16.md",
     "2022-08-23.md",
