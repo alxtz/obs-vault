@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "22b666017978bac0",
+        "id": "f6607edddf7c6606",
         "type": "tabs",
         "children": [
           {
-            "id": "0f42f9c2700af0a8",
+            "id": "6c1a4ef2192a5f15",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DDIA/ch1.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DDIA/ch1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,9 +88,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DDIA/ch1.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -115,17 +108,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0f42f9c2700af0a8",
+  "active": "6c1a4ef2192a5f15",
   "lastOpenFiles": [
-    "2022-08-16.md",
-    "2022-08-23.md",
-    "2022-08-26.md",
-    "2022-09-15.md",
-    "2023-01-15.md",
-    "2022-10-23.md",
-    "2022-10-18.md",
-    "2022-09-27.md",
-    "2022-09-28.md",
-    "DDIA/ch1.md"
+    "cond-types/cond-index.md",
+    "_archive/ch10/ch10.7.md",
+    "_archive/ch10/ch10.6.md",
+    "_archive/ch10/ch10.5.md",
+    "_archive/ch10/ch10.4.md",
+    "_archive/ch10/ch10.1.md",
+    "_archive/ch9/ch9.6.md",
+    "_archive/ch9/ch9.2.md",
+    "_archive/ch9/ch9.7.md",
+    "_archive/ch9/ch9.5.md"
   ]
 }
