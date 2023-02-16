@@ -11,11 +11,28 @@
             "id": "6c1a4ef2192a5f15",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DDIA/ch1.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8b924309cc0726a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "consistent-hashing.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "consistent-hashing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +106,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "consistent-hashing.md"
+              }
             }
           }
         ]
@@ -108,8 +128,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6c1a4ef2192a5f15",
+  "active": "8b924309cc0726a6",
   "lastOpenFiles": [
+    "DDIA/ch1.md",
+    "DDIA/__imgs/ch1-0127181536.png",
     "cond-types/cond-index.md",
     "_archive/ch10/ch10.7.md",
     "_archive/ch10/ch10.6.md",
@@ -117,8 +139,6 @@
     "_archive/ch10/ch10.4.md",
     "_archive/ch10/ch10.1.md",
     "_archive/ch9/ch9.6.md",
-    "_archive/ch9/ch9.2.md",
-    "_archive/ch9/ch9.7.md",
-    "_archive/ch9/ch9.5.md"
+    "_archive/ch9/ch9.2.md"
   ]
 }
