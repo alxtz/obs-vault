@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "liveUpdate": true,
+    "sortingPrinciple": "NEWEST_FIRST",
+    "sortingAttribute": "ctime",
+    "showBehaviour": "OPT_OUT",
+    "exclusionPattern": [],
+    "inclusionPattern": [],
+    "collapsedPattern": [],
+    "sourceBehaviour": "OPT_OUT",
+    "sourceInclusionPattern": [],
+    "sourceExclusionPattern": [],
+    "listLimit": 0,
+    "variant": "CENTER_ALIGNED",
+    "fontSize": 16,
+    "entryHeaderVisible": true,
+    "influxAtTopOfPage": true,
+    "hideInfluxWhileTyping": true
+  }
+}
