@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ts-cond-type-note.md",
+                "file": "Some History of Functional ProgrammingLanguages (paper).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ts-cond-type-note.md",
+                "file": "Some History of Functional ProgrammingLanguages (paper).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ts-cond-type-note.md"
+                "file": "Some History of Functional ProgrammingLanguages (paper).md"
               }
             }
           }
@@ -146,8 +146,9 @@
   },
   "active": "f137ca2987fa46bc",
   "lastOpenFiles": [
-    "2022-10-01.md",
     "ts-cond-type-note.md",
+    "Some History of Functional ProgrammingLanguages (paper).md",
+    "2022-10-01.md",
     "2023-01-21.md",
     "2022-10-14.md",
     "cond-types/cond-index.md",
