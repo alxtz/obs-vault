@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"type":"group","id":"c880defdaa95288f","x":0,"y":720,"width":1060,"height":760,"label":"Adapter (subscribe case)"},
+		{"type":"group","id":"b5cf65069c88a742","x":40,"y":-190,"width":895,"height":630,"label":"Adapter (pushlish case)"},
+		{"id":"26c87082968e61e4","x":-800,"y":880,"width":513,"height":370,"type":"group","label":"Nex"},
+		{"id":"7f77f743db1a3f4b","x":-812,"y":-85,"width":537,"height":335,"type":"group","label":"Nex"},
+		{"type":"text","text":"# Banking Adapter\n- define core domain","id":"18b05c5bc107111b","x":100,"y":20,"width":340,"height":120},
+		{"type":"text","text":"# BAAS API","id":"9430a178fbd2b2dc","x":665,"y":-40,"width":250,"height":60},
+		{"type":"text","text":"# BPR API","id":"e792996a125c0bf6","x":665,"y":140,"width":250,"height":60},
+		{"type":"text","text":"# Nex Features\n- investment\n- bill payments\n- create transfer","id":"fefb390b5ce57ddd","x":-635,"y":5,"width":340,"height":150},
+		{"type":"text","text":"> when working with command/queries","id":"27c67c5fae960a1f","x":-590,"y":170,"width":250,"height":60},
+		{"id":"2db830c5e93df745","x":100,"y":340,"width":315,"height":50,"type":"text","text":"### (entity) baas_checkout_records"},
+		{"type":"text","text":"### (entity) bpr_transfer_records","id":"e3b3414b963816f6","x":440,"y":340,"width":280,"height":50},
+		{"type":"text","text":"### (entity) user_transfers","id":"364f87e7b4c603c6","x":-792,"y":-65,"width":315,"height":50},
+		{"type":"text","text":"### (entity) baas_incoming_interests","id":"42ed8c95160268a6","x":258,"y":770,"width":375,"height":50},
+		{"type":"text","text":"### (entity) bpr_incoming_earnings","id":"55a02bbca72d3cfa","x":290,"y":1340,"width":430,"height":60},
+		{"type":"text","text":"# BAAS API","id":"9da6d75a4aef5856","x":790,"y":820,"width":250,"height":60},
+		{"type":"text","text":"# BPR API","id":"5c9092320d247d65","x":790,"y":1280,"width":250,"height":60},
+		{"type":"text","text":"# Nex Features\n- record interests\n- transfer pending/completed\n- kyc succeeded","id":"f145c13879f07e68","x":-647,"y":990,"width":340,"height":140},
+		{"type":"text","text":"> when working callbacks/event subscription/incoming logic","id":"2c80c2d446c3d87a","x":-602,"y":1150,"width":250,"height":80},
+		{"type":"text","text":"# Banking Adapter\n- define core domain","id":"d9726dd614fa3b53","x":100,"y":1010,"width":340,"height":120},
+		{"type":"text","text":"### (entity) baas_incoming_taxes","id":"0f7dbc264be8720b","x":253,"y":850,"width":375,"height":50},
+		{"type":"text","text":"### (entity) user_interests","id":"63e9ae4785610bdb","x":-780,"y":900,"width":315,"height":50},
+		{"id":"97930a3cfad39c5e","x":-960,"y":440,"width":417,"height":330,"type":"text","text":"# Ideas\n- always communicate to adpater using events\n  - as a wall to prevent messing things up\n\n- each distinct3rd party should have it's own storage\n  \n- the implementation for adatpers <-> 3rd parties could be flexible\n   - (ex. if BAAS doesn't support webhooks)\n      - long polling for fetching latest transfer/kyc status\n   - (ex. if BPR had webhooks built-in)\n      - directly use webhook\n   - as long as we produces a generic \"interest.earned\" event to nex\n        \n"}
+	],
+	"edges":[
+		{"id":"2b7baf7c492da24f","fromNode":"18b05c5bc107111b","fromSide":"right","toNode":"9430a178fbd2b2dc","toSide":"left","label":"/checkout"},
+		{"id":"7e2918d935da36ee","fromNode":"18b05c5bc107111b","fromSide":"right","toNode":"e792996a125c0bf6","toSide":"left","label":"/transfer"},
+		{"id":"e5b5fe5d01718735","fromNode":"fefb390b5ce57ddd","fromSide":"top","toNode":"18b05c5bc107111b","toSide":"top","label":"\"events\"\n(ex. transfer.init)"},
+		{"id":"8ffd4cbeacc98646","fromNode":"9da6d75a4aef5856","fromSide":"left","toNode":"d9726dd614fa3b53","toSide":"right"},
+		{"id":"8d9c76756d42d6cb","fromNode":"9da6d75a4aef5856","fromSide":"left","toNode":"d9726dd614fa3b53","toSide":"right","label":"webhooks"},
+		{"id":"da1a791228c23d9e","fromNode":"9da6d75a4aef5856","fromSide":"bottom","toNode":"d9726dd614fa3b53","toSide":"right","label":"long polling (if no webhook)"},
+		{"id":"6e7615eb96d6d83e","fromNode":"5c9092320d247d65","fromSide":"left","toNode":"d9726dd614fa3b53","toSide":"right","label":"webhooks"},
+		{"id":"77a8974ff6f8e8b4","fromNode":"18b05c5bc107111b","fromSide":"bottom","toNode":"2db830c5e93df745","toSide":"top","toEnd":"none","label":"store"},
+		{"id":"652eda6ffe95ea78","fromNode":"18b05c5bc107111b","fromSide":"bottom","toNode":"e3b3414b963816f6","toSide":"top","toEnd":"none","label":"store"},
+		{"id":"ee499a136bccdfa1","fromNode":"d9726dd614fa3b53","fromSide":"top","toNode":"0f7dbc264be8720b","toSide":"bottom","toEnd":"none"},
+		{"id":"d0bbd6b3ff90e21e","fromNode":"d9726dd614fa3b53","fromSide":"top","toNode":"42ed8c95160268a6","toSide":"left","toEnd":"none"},
+		{"id":"089023b02e40ea07","fromNode":"d9726dd614fa3b53","fromSide":"bottom","toNode":"55a02bbca72d3cfa","toSide":"top","toEnd":"none"},
+		{"id":"aa41ed718ef1bea8","fromNode":"d9726dd614fa3b53","fromSide":"left","toNode":"f145c13879f07e68","toSide":"right","label":"\"events\"\n(ex. interest.earned)"}
+	]
+}

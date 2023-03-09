@@ -4,15 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "025e174e9fa5e608",
+        "id": "a67ce4a5f98089dc",
         "type": "tabs",
         "children": [
           {
-            "id": "a914b384c2be87d7",
+            "id": "278cdb2be549578a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "Nex Adpater.canvas",
+                "viewState": {
+                  "x": 112.13850976258621,
+                  "y": 625.4804769881891,
+                  "zoom": -1.3576278861349387
+                }
+              }
             }
           }
         ]
@@ -57,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.50390243530273
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -101,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Nex Adpater.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Nex Adpater.canvas"
+              }
             }
           }
         ]
@@ -136,8 +147,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a914b384c2be87d7",
+  "active": "278cdb2be549578a",
   "lastOpenFiles": [
+    "__imgs/Pasted image 20230308173528.png",
+    "Nex Adpater.canvas",
+    "Untitled.md",
     "my-personality.md",
     "2022-10-01.md",
     "__imgs/2022-10-01-0304004524.png",
