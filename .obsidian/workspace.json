@@ -15,14 +15,30 @@
               "state": {
                 "file": "Nex Adpater.canvas",
                 "viewState": {
-                  "x": 121.78179138212307,
-                  "y": 846.3771777982482,
-                  "zoom": -1.5512955896790392
+                  "x": -417.05682097602227,
+                  "y": 699.816878868016,
+                  "zoom": -0.23667008427138808
+                }
+              }
+            }
+          },
+          {
+            "id": "6f7b2e5e67b3a95a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Nex Adpater RFC.canvas",
+                "viewState": {
+                  "x": 364,
+                  "y": 612.5,
+                  "zoom": -1.332217970979795
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -64,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -109,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nex Adpater.canvas",
+                "file": "Nex Adpater RFC.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nex Adpater.canvas"
+                "file": "Nex Adpater RFC.canvas"
               }
             }
           }
@@ -147,10 +162,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "278cdb2be549578a",
+  "active": "6f7b2e5e67b3a95a",
   "lastOpenFiles": [
-    "__imgs/Pasted image 20230308173528.png",
     "Nex Adpater.canvas",
+    "Nex Adpater RFC.canvas",
+    "__imgs/Pasted image 20230308173528.png",
     "Untitled.md",
     "my-personality.md",
     "2022-10-01.md",

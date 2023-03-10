@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"b2aac5564069ac53","x":140,"y":-240,"width":1420,"height":1705,"color":"#f2a1a9","type":"group","label":"Adapter Layer"},
+		{"type":"group","id":"c880defdaa95288f","x":160,"y":685,"width":1380,"height":755,"label":"Subscriber"},
+		{"id":"216000031e24138b","x":-832,"y":-240,"width":600,"height":1705,"color":"4","type":"group","label":"Application Layer"},
+		{"type":"group","id":"b5cf65069c88a742","x":160,"y":-160,"width":1380,"height":725,"label":"Pushlisher"},
+		{"type":"group","id":"26c87082968e61e4","x":-812,"y":613,"width":560,"height":370,"label":"Nex Interests Module"},
+		{"type":"group","id":"7f77f743db1a3f4b","x":-812,"y":203,"width":537,"height":335,"label":"Nex Transfer Module"},
+		{"type":"text","text":"# Banking Adapter\n- define core domain\n- determine which 3rd party to use","id":"18b05c5bc107111b","x":220,"y":50,"width":340,"height":120},
+		{"type":"text","text":"# BPR API","id":"e792996a125c0bf6","x":430,"y":460,"width":250,"height":60},
+		{"type":"text","text":"### (entity) bpr_transfer_event_store","id":"e3b3414b963816f6","x":720,"y":460,"width":320,"height":60},
+		{"type":"text","text":"# BAAS API","id":"9430a178fbd2b2dc","x":880,"y":230,"width":250,"height":60},
+		{"type":"text","text":"### (entity) baas_account_transfer_event_store","id":"2db830c5e93df745","x":1075,"y":145,"width":405,"height":50},
+		{"type":"text","text":"# BAAS API","id":"9da6d75a4aef5856","x":1230,"y":780,"width":250,"height":60},
+		{"type":"text","text":"# Banking Adapter\n- define core domain\n- collect various events from 3rd parties","id":"d9726dd614fa3b53","x":453,"y":975,"width":340,"height":120},
+		{"type":"text","text":"### (entity) baas_webhook_event_store","id":"42ed8c95160268a6","x":793,"y":730,"width":375,"height":50},
+		{"type":"text","text":"### (entity) baas_long_polling_event_store","id":"0f7dbc264be8720b","x":1130,"y":1060,"width":375,"height":50},
+		{"type":"text","text":"# BPR API","id":"5c9092320d247d65","x":980,"y":1275,"width":250,"height":60},
+		{"type":"text","text":"### (entity) bpr_webhook_event_store","id":"55a02bbca72d3cfa","x":320,"y":1335,"width":360,"height":50},
+		{"type":"text","text":"### (entity) banking_interest","id":"63e9ae4785610bdb","x":-792,"y":633,"width":315,"height":50},
+		{"type":"text","text":"# Nex Features\n- record interests\n- transfer pending/completed\n- kyc succeeded","id":"f145c13879f07e68","x":-692,"y":818,"width":340,"height":140},
+		{"type":"text","text":"### (entity) banking_interest_tax","id":"b5a1fabc1ebf74d7","x":-792,"y":718,"width":315,"height":50},
+		{"type":"text","text":"### (entity) user_transfers","id":"364f87e7b4c603c6","x":-792,"y":223,"width":315,"height":50},
+		{"type":"text","text":"# Nex Features\n- investment\n- bill payments\n- create transfer","id":"fefb390b5ce57ddd","x":-647,"y":338,"width":340,"height":150}
+	],
+	"edges":[
+		{"id":"2b7baf7c492da24f","fromNode":"18b05c5bc107111b","fromSide":"bottom","toNode":"9430a178fbd2b2dc","toSide":"left","color":"6","label":"/account/:id/transfer"},
+		{"id":"7e2918d935da36ee","fromNode":"18b05c5bc107111b","fromSide":"bottom","toNode":"e792996a125c0bf6","toSide":"left","label":"/transfer"},
+		{"id":"e5b5fe5d01718735","fromNode":"fefb390b5ce57ddd","fromSide":"top","toNode":"18b05c5bc107111b","toSide":"top","color":"6","label":"\"event\" (transfer.init)"},
+		{"id":"8d9c76756d42d6cb","fromNode":"9da6d75a4aef5856","fromSide":"left","toNode":"d9726dd614fa3b53","toSide":"top","color":"6","label":"webhooks"},
+		{"id":"da1a791228c23d9e","fromNode":"9da6d75a4aef5856","fromSide":"bottom","toNode":"d9726dd614fa3b53","toSide":"right","label":"kyc long polling"},
+		{"id":"6e7615eb96d6d83e","fromNode":"5c9092320d247d65","fromSide":"left","toNode":"d9726dd614fa3b53","toSide":"bottom","label":"webhooks"},
+		{"id":"77a8974ff6f8e8b4","fromNode":"9430a178fbd2b2dc","fromSide":"left","toNode":"2db830c5e93df745","toSide":"top","color":"6"},
+		{"id":"d0bbd6b3ff90e21e","fromNode":"d9726dd614fa3b53","fromSide":"top","toNode":"42ed8c95160268a6","toSide":"left","color":"6"},
+		{"id":"089023b02e40ea07","fromNode":"d9726dd614fa3b53","fromSide":"bottom","toNode":"55a02bbca72d3cfa","toSide":"top","toEnd":"none"},
+		{"id":"aa41ed718ef1bea8","fromNode":"d9726dd614fa3b53","fromSide":"left","toNode":"f145c13879f07e68","toSide":"right","color":"6","label":"\"events\" (interest.earned)"},
+		{"id":"a11c883a9ba84c24","fromNode":"e792996a125c0bf6","fromSide":"left","toNode":"e3b3414b963816f6","toSide":"top"},
+		{"id":"3058ef8c8fe0668b","fromNode":"d9726dd614fa3b53","fromSide":"right","toNode":"0f7dbc264be8720b","toSide":"left"}
+	]
+}
