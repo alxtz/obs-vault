@@ -11,8 +11,13 @@
             "id": "ddc471e4f875a3be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DB caching patterns.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -101,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "DB caching patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DB caching patterns.md"
+              }
             }
           }
         ]
@@ -148,7 +156,7 @@
     "2022-10-14.md",
     "2023-01-21.md",
     "my-personality.md",
-    "Untitled.md",
+    "DB caching patterns.md",
     "type-orm-n+1.md",
     "ts-cond-type-note.md",
     "Some History of Functional ProgrammingLanguages (paper).md",
