@@ -4,41 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a67ce4a5f98089dc",
+        "id": "74ee1d92a2f6d440",
         "type": "tabs",
         "children": [
           {
-            "id": "278cdb2be549578a",
+            "id": "ddc471e4f875a3be",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Nex Adpater.canvas",
-                "viewState": {
-                  "x": -417.05682097602227,
-                  "y": 699.816878868016,
-                  "zoom": -0.23667008427138808
-                }
-              }
-            }
-          },
-          {
-            "id": "6f7b2e5e67b3a95a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Nex Adpater RFC.canvas",
-                "viewState": {
-                  "x": 364,
-                  "y": 612.5,
-                  "zoom": -1.332217970979795
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nex Adpater RFC.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,9 +116,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Nex Adpater RFC.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -162,27 +136,30 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "6f7b2e5e67b3a95a",
+  "active": "ddc471e4f875a3be",
   "lastOpenFiles": [
     "Nex Adpater.canvas",
+    "_archive/DB SQL optimization readings.md",
+    "idem/2.md",
+    "idem/index.md",
+    "q-kafka-learnings/intro.md",
+    "shu-can/ep-0.md",
+    "2022-10-01.md",
+    "2022-10-14.md",
+    "2023-01-21.md",
+    "my-personality.md",
+    "Untitled.md",
+    "type-orm-n+1.md",
+    "ts-cond-type-note.md",
+    "Some History of Functional ProgrammingLanguages (paper).md",
     "Nex Adpater RFC.canvas",
     "__imgs/Pasted image 20230308173528.png",
-    "Untitled.md",
-    "my-personality.md",
-    "2022-10-01.md",
     "__imgs/2022-10-01-0304004524.png",
     "__imgs/2022-10-01-0304003028.png",
-    "Some History of Functional ProgrammingLanguages (paper).md",
-    "ts-cond-type-note.md",
-    "2023-01-21.md",
-    "2022-10-14.md",
     "cond-types/cond-index.md",
-    "_archive/DB SQL optimization readings.md",
     "DDIA/ch1.md",
     "ts-faq/1.md",
-    "shu-can/ep-0.md",
     "__imgs/type-orm-n+1-0819224328.png",
-    "type-orm-n+1.md",
     "2023-01-16.md",
     "Consistent Hashing.md",
     "_archive/2022-09-28.md",
