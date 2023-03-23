@@ -11,12 +11,14 @@
             "id": "ddc471e4f875a3be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "DB caching patterns.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+                "file": "Nex Adpater.canvas",
+                "viewState": {
+                  "x": -533.1986560861061,
+                  "y": 902.8536379511331,
+                  "zoom": -0.07738286263274306
+                }
               }
             }
           }
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB caching patterns.md",
+                "file": "Nex Adpater.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB caching patterns.md"
+                "file": "Nex Adpater.canvas"
               }
             }
           }
@@ -146,6 +148,8 @@
   },
   "active": "ddc471e4f875a3be",
   "lastOpenFiles": [
+    "my-personality.md",
+    "DB caching patterns.md",
     "Nex Adpater.canvas",
     "_archive/DB SQL optimization readings.md",
     "idem/2.md",
@@ -155,8 +159,6 @@
     "2022-10-01.md",
     "2022-10-14.md",
     "2023-01-21.md",
-    "my-personality.md",
-    "DB caching patterns.md",
     "type-orm-n+1.md",
     "ts-cond-type-note.md",
     "Some History of Functional ProgrammingLanguages (paper).md",
