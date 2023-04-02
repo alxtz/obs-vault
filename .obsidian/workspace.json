@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2023-04-02.md",
+                "file": "microservices book review.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -62,7 +62,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-04-02.md",
+                "file": "microservices book review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-04-02.md"
+                "file": "microservices book review.md"
               }
             }
           }
@@ -146,10 +147,12 @@
   },
   "active": "ddc471e4f875a3be",
   "lastOpenFiles": [
+    "ts-cond-type-note.md",
+    "Some History of Functional ProgrammingLanguages (paper).md",
     "Nex Adpater.canvas",
-    "2023-04-02.md",
-    "my-personality.md",
     "DB caching patterns.md",
+    "microservices book review.md",
+    "my-personality.md",
     "_archive/DB SQL optimization readings.md",
     "idem/2.md",
     "idem/index.md",
@@ -159,8 +162,6 @@
     "2022-10-14.md",
     "2023-01-21.md",
     "type-orm-n+1.md",
-    "ts-cond-type-note.md",
-    "Some History of Functional ProgrammingLanguages (paper).md",
     "Nex Adpater RFC.canvas",
     "__imgs/Pasted image 20230308173528.png",
     "__imgs/2022-10-01-0304004524.png",
