@@ -61,7 +61,21 @@
 ---
 
 - building envolutionary architecture
-   - 160p
+   - 160p -> 2.5 個月
+   - 讀起來也有點像是 "building microservices", 滿多引用跟 essay 類的寫法，但也都離實作有點偏遠
+   - 章節
+      - **(1)** 演進式的架構, 如果東西經常改變, 那怎麼有可能進行任何長期規劃
+      - incremental change, conway's law
+         - 讀起來太像是 essay 了，很多快要變成解決組織等級的問題
+      - (2) fitness functions (看不懂)
+      - **(3)** engineering incremental change
+         - 主要都跟 fitness function 和其他公司的方法論有關
+      - 測試/fitness function, hypothesis & data-driven development
+      - **(4)** architechtural coupling, granularity, monolith, event-driven architectures, serverless
+      - **(5)** 可演化的 data, 可演化的 DB design, 可演化的 schema, 2-phase commit transactions
+      - (6) 建構可演化的 architectures, identify dimensions, define fitness functions, deployment pipelines
+      - **(7)** evolutionary architecture 的 pitfalls & anti-patterns
+      - (8) putting evolutionaary architecture into practice, team, cost
 
 ---
 
