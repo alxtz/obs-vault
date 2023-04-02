@@ -11,14 +11,12 @@
             "id": "ddc471e4f875a3be",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Nex Adpater.canvas",
-                "viewState": {
-                  "x": -533.1986560861061,
-                  "y": 902.8536379511331,
-                  "zoom": -0.07738286263274306
-                }
+                "file": "2023-04-02.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nex Adpater.canvas",
+                "file": "2023-04-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nex Adpater.canvas"
+                "file": "2023-04-02.md"
               }
             }
           }
@@ -148,9 +146,10 @@
   },
   "active": "ddc471e4f875a3be",
   "lastOpenFiles": [
+    "Nex Adpater.canvas",
+    "2023-04-02.md",
     "my-personality.md",
     "DB caching patterns.md",
-    "Nex Adpater.canvas",
     "_archive/DB SQL optimization readings.md",
     "idem/2.md",
     "idem/index.md",
