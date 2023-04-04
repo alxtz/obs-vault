@@ -15,9 +15,9 @@
               "state": {
                 "file": "Updated MF flow (+BSS).canvas",
                 "viewState": {
-                  "x": -630,
-                  "y": 1515,
-                  "zoom": -2.1541091309519875
+                  "x": -142.351970248061,
+                  "y": 2431.4511122533872,
+                  "zoom": 0.2839868219630406
                 }
               }
             }
@@ -64,7 +64,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "26113970d00a9af1",

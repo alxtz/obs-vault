@@ -2,13 +2,16 @@
 	"nodes":[
 		{"type":"group","id":"5243bb713cce56fe","x":-360,"y":-320,"width":1100,"height":1280,"label":"order creation"},
 		{"type":"group","id":"79949695bdfd8ecc","x":-360,"y":2070,"width":1100,"height":1280,"label":"create booking"},
+		{"type":"group","id":"634590da75aa73af","x":-340,"y":2120,"width":580,"height":1120,"color":"#757575","label":"booking on tanamduit"},
 		{"type":"group","id":"004780045ca33324","x":100,"y":240,"width":620,"height":700,"color":"#757575","label":"charge user"},
 		{"type":"group","id":"9cfd543d0e52e748","x":-294,"y":1480,"width":484,"height":370,"color":"6","label":"event handler"},
 		{"type":"group","id":"e94797e97997de08","x":-340,"y":-240,"width":440,"height":220,"color":"#757575","label":"validate request"},
 		{"type":"group","id":"c9b75bc86ea96e05","x":120,"y":590,"width":580,"height":150,"label":"[case] standard charge"},
+		{"type":"group","id":"ee75e6d6f768d5e1","x":-320,"y":2860,"width":580,"height":150,"label":"[case] standard charge"},
 		{"type":"group","id":"479863485d6428fd","x":-1240,"y":2620,"width":340,"height":180,"label":"cost refund"},
 		{"type":"group","id":"2e0601ea264586c4","x":120,"y":300,"width":580,"height":100,"label":"[case] magic params (BPR rejected)"},
 		{"type":"group","id":"857fbaa5f173651f","x":120,"y":440,"width":580,"height":100,"label":"[case] magic params (BPR succeeded)"},
+		{"type":"group","id":"e278254eeaab3cc0","x":-320,"y":2710,"width":580,"height":100,"label":"[case] magic params (BPR succeeded)"},
 		{"type":"group","id":"c0c88fac07f56414","x":-1585,"y":2290,"width":290,"height":180,"label":"charge user"},
 		{"type":"group","id":"012b1f33f7d4fec6","x":-2000,"y":2290,"width":290,"height":180,"label":"charge failed"},
 		{"type":"group","id":"33fe1154e20ebe14","x":-1480,"y":2070,"width":290,"height":180,"label":"daily worker"},
@@ -37,7 +40,12 @@
 		{"type":"text","text":"","id":"18a146e7b37b0a3d","x":-1565,"y":2310,"width":250,"height":60},
 		{"type":"text","text":"","id":"5972f569bd72484d","x":-1565,"y":2390,"width":250,"height":60},
 		{"type":"text","text":"","id":"8c228b1cd642969d","x":-1060,"y":2160,"width":250,"height":60},
-		{"type":"text","text":"","id":"c66b96648e4d382b","x":-1060,"y":2240,"width":250,"height":60}
+		{"type":"text","text":"","id":"c66b96648e4d382b","x":-1060,"y":2240,"width":250,"height":60},
+		{"type":"text","text":"```typescript\nbankingApi.createInterbankTransfer({\n  senderAccountId: PARAMS.accountId,\n  receiverAccountNumber: BPR_NTD_ACCOUNT_NUMBER\n})\n```","id":"59fdf6658337b23a","x":-302,"y":2880,"width":542,"height":110},
+		{"type":"text","text":"- check if given amount matches `BPR_SUCCEEDED_MP`","id":"5987658fa25dcc7e","x":-302,"y":2730,"width":542,"height":60},
+		{"type":"text","text":"- got `RESPONSE.txnId`\n- store `MutualFundOrder`\n   - `status: TRANSFER_PENDING`\n   - `exectutedUnits: null`\n- store `MutualFundTransaction`\n   - `status: PENDING`\n   - `amount: PARAMS.amount`","id":"9c859800fc676287","x":-316,"y":3030,"width":576,"height":160},
+		{"type":"text","text":"- get user access key from Tanamduit\n\n```typescript\nthis.tanamduitApi.postAccUserAccess({\n   email: tanamduitRegisteredEmail,\n   userId: tanamduitRegisteredUserId,\n   customerType: tanamduitRegisteredCustomerType,\n})\n```","id":"2620bdace78d6b68","x":-325,"y":2140,"width":545,"height":160},
+		{"type":"text","text":"- get user access key from Tanamduit\n\n```typescript\nthis.tanamduitApi.postAccUserAccess({\n   email: tanamduitRegisteredEmail,\n   userId: tanamduitRegisteredUserId,\n   customerType: tanamduitRegisteredCustomerType,\n})\n```","id":"ac9630db9e1e34f6","x":-325,"y":2420,"width":545,"height":160}
 	],
 	"edges":[
 		{"id":"49ea0c9731796c61","fromNode":"c74687bf42fdf37a","fromSide":"right","toNode":"e94797e97997de08","toSide":"left","label":"REST API"},
@@ -56,6 +64,7 @@
 		{"id":"d6c5482fb8a5caf8","fromNode":"857fbaa5f173651f","fromSide":"left","toNode":"9cfd543d0e52e748","toSide":"top","color":"6"},
 		{"id":"b7fcd6b2b251e0ff","fromNode":"b7998624053c3455","fromSide":"bottom","toNode":"0b9f6513403f7e2d","toSide":"top"},
 		{"id":"274145084f4e3d68","fromNode":"0b9f6513403f7e2d","fromSide":"bottom","toNode":"b2910d39375e8705","toSide":"top"},
-		{"id":"48de24faf4960ba4","fromNode":"9cfd543d0e52e748","fromSide":"bottom","toNode":"79949695bdfd8ecc","toSide":"top"}
+		{"id":"48de24faf4960ba4","fromNode":"9cfd543d0e52e748","fromSide":"bottom","toNode":"79949695bdfd8ecc","toSide":"top"},
+		{"id":"9398c0ce94d361db","fromNode":"2620bdace78d6b68","fromSide":"bottom","toNode":"ac9630db9e1e34f6","toSide":"top","color":"4"}
 	]
 }
