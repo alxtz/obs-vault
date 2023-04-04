@@ -6,6 +6,7 @@
       {
         "id": "74ee1d92a2f6d440",
         "type": "tabs",
+        "dimension": 68.25508058864752,
         "children": [
           {
             "id": "ddc471e4f875a3be",
@@ -15,10 +16,30 @@
               "state": {
                 "file": "Updated MF flow (+BSS).canvas",
                 "viewState": {
-                  "x": -142.351970248061,
-                  "y": 2431.4511122533872,
-                  "zoom": 0.2839868219630406
+                  "x": -44.66599760040504,
+                  "y": 2815.0323178288295,
+                  "zoom": -2.113618980339937
                 }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "0df599e6e17d7340",
+        "type": "tabs",
+        "dimension": 31.74491941135249,
+        "children": [
+          {
+            "id": "fb73efbbd305bd47",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "event table.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -64,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -149,8 +169,9 @@
   },
   "active": "ddc471e4f875a3be",
   "lastOpenFiles": [
-    "Nex Adpater.canvas",
+    "event table.md",
     "Updated MF flow (+BSS).canvas",
+    "Nex Adpater.canvas",
     "Untitled.md",
     "Nex Adpater RFC.canvas",
     "microservices book review.md",
@@ -179,7 +200,6 @@
     "_archive/2022-09-28.md",
     "2022-09-15.md",
     "2022-08-26.md",
-    "2022-08-16.md",
-    "2023-02-24.md"
+    "2022-08-16.md"
   ]
 }
