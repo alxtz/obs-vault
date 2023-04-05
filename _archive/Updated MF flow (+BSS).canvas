@@ -22,7 +22,7 @@
 		{"type":"group","id":"33fe1154e20ebe14","x":-1480,"y":2070,"width":290,"height":180,"label":"daily worker"},
 		{"type":"group","id":"6df790d80387f78e","x":-1190,"y":2380,"width":290,"height":180,"label":"order completed"},
 		{"type":"group","id":"74d1f82d00c4ef32","x":-2000,"y":2620,"width":260,"height":180,"label":"3rd-party booking"},
-		{"type":"file","file":"event table.md","id":"74f389e4d853234b","x":-1310,"y":350,"width":360,"height":460,"color":"6"},
+		{"type":"file","file":"event table(legacy).md","id":"74f389e4d853234b","x":-1310,"y":350,"width":360,"height":460,"color":"6"},
 		{"type":"text","text":"Mobile (FE)","id":"c74687bf42fdf37a","x":-940,"y":-190,"width":200,"height":50},
 		{"type":"text","text":"request error (400/500)","id":"b877fb8f4fc13487","x":-745,"y":0,"width":200,"height":55},
 		{"type":"text","text":"- valid product-id\n- valid envelope used\n- user being a valid MF customer (passed KYC)\n- valid payment method (active bank account, isBPR)","id":"bf056e19982c2c41","x":-320,"y":-220,"width":400,"height":110},

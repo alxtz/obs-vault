@@ -6,7 +6,6 @@
       {
         "id": "74ee1d92a2f6d440",
         "type": "tabs",
-        "dimension": 68.25508058864752,
         "children": [
           {
             "id": "ddc471e4f875a3be",
@@ -14,32 +13,12 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Updated MF flow (+BSS).canvas",
+                "file": "Updated MF flow (+BSS) (1).canvas",
                 "viewState": {
-                  "x": -44.66599760040504,
-                  "y": 2815.0323178288295,
-                  "zoom": -2.113618980339937
+                  "x": -1099.4691250734072,
+                  "y": 2018.5285785035235,
+                  "zoom": 0.31773379995569456
                 }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0df599e6e17d7340",
-        "type": "tabs",
-        "dimension": 31.74491941135249,
-        "children": [
-          {
-            "id": "fb73efbbd305bd47",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "event table.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
               }
             }
           }
@@ -129,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Updated MF flow (+BSS).canvas",
+                "file": "Updated MF flow (+BSS) (1).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Updated MF flow (+BSS).canvas"
+                "file": "Updated MF flow (+BSS) (1).canvas"
               }
             }
           }
@@ -169,8 +148,12 @@
   },
   "active": "ddc471e4f875a3be",
   "lastOpenFiles": [
+    "event table(legacy).md",
+    "Updated MF flow (+BSS) (1).canvas",
     "event table.md",
-    "Updated MF flow (+BSS).canvas",
+    "_archive/Updated MF flow (+BSS).canvas",
+    "event table.mdClick to view details.webloc",
+    "Updated MF flow (+BSS).canvasDownload Binary.webloc",
     "Nex Adpater.canvas",
     "Untitled.md",
     "Nex Adpater RFC.canvas",
@@ -199,7 +182,6 @@
     "Consistent Hashing.md",
     "_archive/2022-09-28.md",
     "2022-09-15.md",
-    "2022-08-26.md",
-    "2022-08-16.md"
+    "2022-08-26.md"
   ]
 }
