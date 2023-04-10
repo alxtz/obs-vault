@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "74ee1d92a2f6d440",
+        "id": "be56753c94ee3685",
         "type": "tabs",
         "children": [
           {
-            "id": "ddc471e4f875a3be",
+            "id": "9c4cbab6d24f113e",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Updated MF flow (+BSS) (1).canvas",
-                "viewState": {
-                  "x": 340.28887660882714,
-                  "y": 1699.249144647583,
-                  "zoom": -3.0472603527704893
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Updated MF flow (+BSS) (1).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,9 +117,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Updated MF flow (+BSS) (1).canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +137,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ddc471e4f875a3be",
+  "active": "9c4cbab6d24f113e",
   "lastOpenFiles": [
-    "event table(legacy).md",
     "Updated MF flow (+BSS) (1).canvas",
+    "event table(legacy).md",
     "event table.md",
     "_archive/Updated MF flow (+BSS).canvas",
     "event table.mdClick to view details.webloc",
