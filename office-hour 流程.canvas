@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"type":"group","id":"995af8af822fa969","x":-500,"y":-200,"width":842,"height":740,"label":"office hour 流程"},
+		{"type":"text","text":"host **介紹（當周）內容**\n- 5 min\n- 同時準備一個 miro\n- 紀錄出席/缺席組員","id":"35d5fd9b01887c11","x":-38,"y":-180,"width":360,"height":120},
+		{"type":"text","text":"host 請成員 **貼上「閱讀疑問」的便條**\n- 任何閱讀中出現的疑問/未知都可以問\n- 10 min","id":"fb73b95a8adf17a1","x":-480,"y":-60,"width":360,"height":100,"color":"3"},
+		{"type":"text","text":"host **「抽籤」請成員回答問題**\n- 20 min\n- 需口頭回答 + 貼便條紀錄\n- 抽到的人回答結束 -> 其他人可自願補充","id":"d4aa4599d134a3b1","x":-480,"y":70,"width":360,"height":120,"color":"4"},
+		{"type":"text","text":"host 請成員 **貼上「knowledge point」的便條**\n- 任何貫穿章節的概念/專有名詞都可貼\n- 5 min ","id":"142a7d3fd6a506e4","x":-32,"y":260,"width":360,"height":100,"color":"3"},
+		{"type":"text","text":"host **「抽籤」請成員解釋「knowledge point」**\n- 用當事者自己的角度/白話文介紹\n- 作為概念複習/最後統整\n- 15 min ","id":"3270dc102b06637c","x":-32,"y":400,"width":360,"height":120,"color":"4"},
+		{"type":"file","file":"__imgs/籤桶.png","id":"abd88cce5d75be08","x":-52,"y":20,"width":162,"height":140},
+		{"type":"text","text":"office hour 結束","id":"c2f638e8c54e6965","x":-390,"y":435,"width":180,"height":50}
+	],
+	"edges":[
+		{"id":"a06b9ec652c0fc16","fromNode":"abd88cce5d75be08","fromSide":"left","toNode":"d4aa4599d134a3b1","toSide":"right"},
+		{"id":"36cbef85fff307cf","fromNode":"35d5fd9b01887c11","fromSide":"bottom","toNode":"fb73b95a8adf17a1","toSide":"top"},
+		{"id":"41821710dd9292a6","fromNode":"fb73b95a8adf17a1","fromSide":"bottom","toNode":"d4aa4599d134a3b1","toSide":"top"},
+		{"id":"4886706cdc01dadf","fromNode":"d4aa4599d134a3b1","fromSide":"bottom","toNode":"142a7d3fd6a506e4","toSide":"top"},
+		{"id":"182bb4af8a37db07","fromNode":"142a7d3fd6a506e4","fromSide":"bottom","toNode":"3270dc102b06637c","toSide":"top"},
+		{"id":"34ee2580804b3f04","fromNode":"3270dc102b06637c","fromSide":"left","toNode":"c2f638e8c54e6965","toSide":"right"}
+	]
+}
