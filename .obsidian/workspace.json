@@ -4,22 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "be56753c94ee3685",
+        "id": "65b512d3b43e6d63",
         "type": "tabs",
         "children": [
           {
-            "id": "9c4cbab6d24f113e",
+            "id": "67d58b97e3c10ed9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "office-hour 流程.canvas",
-                "viewState": {
-                  "x": -75.21012176982038,
-                  "y": 227.73329964637492,
-                  "zoom": -0.23153373740629127
-                }
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -58,6 +51,14 @@
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "d6c61ad94185a287",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -109,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "office-hour 流程.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,9 +125,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "office-hour 流程.canvas"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,10 +145,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9c4cbab6d24f113e",
+  "active": "67d58b97e3c10ed9",
   "lastOpenFiles": [
-    "__imgs/籤桶.png",
+    "2023-05-17.md",
     "office-hour 流程.canvas",
+    "__imgs/籤桶.png",
     "Updated MF flow (+BSS) (1).canvas",
     "event table(legacy).md",
     "event table.md",
@@ -184,7 +183,6 @@
     "2023-01-16.md",
     "Consistent Hashing.md",
     "_archive/2022-09-28.md",
-    "2022-09-15.md",
-    "2022-08-26.md"
+    "2022-09-15.md"
   ]
 }
