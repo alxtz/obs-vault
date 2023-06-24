@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "65b512d3b43e6d63",
+        "id": "a748ec95189d76d6",
         "type": "tabs",
         "children": [
           {
-            "id": "67d58b97e3c10ed9",
+            "id": "ae798cde797e8d6a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -65,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -145,15 +144,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "67d58b97e3c10ed9",
+  "active": "ae798cde797e8d6a",
   "lastOpenFiles": [
+    "Updated MF flow (+BSS) (1).canvas",
+    "2023-06-05.md",
+    "_archive/Updated MF flow (+BSS).canvas",
     "2023-05-17.md",
     "office-hour 流程.canvas",
     "__imgs/籤桶.png",
-    "Updated MF flow (+BSS) (1).canvas",
     "event table(legacy).md",
     "event table.md",
-    "_archive/Updated MF flow (+BSS).canvas",
     "event table.mdClick to view details.webloc",
     "Updated MF flow (+BSS).canvasDownload Binary.webloc",
     "Nex Adpater.canvas",
@@ -182,7 +182,6 @@
     "__imgs/type-orm-n+1-0819224328.png",
     "2023-01-16.md",
     "Consistent Hashing.md",
-    "_archive/2022-09-28.md",
-    "2022-09-15.md"
+    "_archive/2022-09-28.md"
   ]
 }
