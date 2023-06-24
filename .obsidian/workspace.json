@@ -11,8 +11,13 @@
             "id": "ae798cde797e8d6a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "type-orm-n+1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -109,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "type-orm-n+1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "type-orm-n+1.md"
+              }
             }
           }
         ]
@@ -146,24 +154,25 @@
   },
   "active": "ae798cde797e8d6a",
   "lastOpenFiles": [
-    "Updated MF flow (+BSS) (1).canvas",
-    "2023-06-05.md",
-    "_archive/Updated MF flow (+BSS).canvas",
-    "2023-05-17.md",
     "office-hour 流程.canvas",
-    "__imgs/籤桶.png",
-    "event table(legacy).md",
+    "DB caching patterns.md",
     "event table.md",
+    "my-personality.md",
+    "Nex Adpater.canvas",
+    "shu-can/ep-1.md",
+    "2023-05-17.md",
+    "2023-06-05.md",
+    "event table(legacy).md",
+    "Some History of Functional ProgrammingLanguages (paper).md",
+    "Nex Adpater RFC.canvas",
+    "Updated MF flow (+BSS) (1).canvas",
+    "_archive/Updated MF flow (+BSS).canvas",
+    "__imgs/籤桶.png",
     "event table.mdClick to view details.webloc",
     "Updated MF flow (+BSS).canvasDownload Binary.webloc",
-    "Nex Adpater.canvas",
     "Untitled.md",
-    "Nex Adpater RFC.canvas",
     "microservices book review.md",
     "ts-cond-type-note.md",
-    "Some History of Functional ProgrammingLanguages (paper).md",
-    "DB caching patterns.md",
-    "my-personality.md",
     "_archive/DB SQL optimization readings.md",
     "idem/2.md",
     "idem/index.md",
@@ -181,7 +190,6 @@
     "ts-faq/1.md",
     "__imgs/type-orm-n+1-0819224328.png",
     "2023-01-16.md",
-    "Consistent Hashing.md",
-    "_archive/2022-09-28.md"
+    "Consistent Hashing.md"
   ]
 }
