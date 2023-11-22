@@ -11,12 +11,14 @@
             "id": "2867af6098b3ea5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "2023-07-03.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+                "file": "Updated MF flow (+BSS) (1).canvas",
+                "viewState": {
+                  "x": 798.8019005679073,
+                  "y": 9616.20760227164,
+                  "zoom": -0.8321048112710318
+                }
               }
             }
           }
@@ -70,7 +72,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -114,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-07-03.md",
+                "file": "Updated MF flow (+BSS) (1).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-07-03.md"
+                "file": "Updated MF flow (+BSS) (1).canvas"
               }
             }
           }
@@ -154,6 +157,10 @@
   },
   "active": "2867af6098b3ea5f",
   "lastOpenFiles": [
+    "nex-biz-acc-statement-template-rep.pdf",
+    "Export PDF A4 - Xendit.pdf",
+    "Export PDF A4 - Xendit (2).pdf",
+    "(prod)nex-biz-acc-statement-template-head.pdf",
     "2023-07-03.md",
     "type-orm-n+1.md",
     "office-hour 流程.canvas",
@@ -190,7 +197,6 @@
     "DDIA/ch1.md",
     "ts-faq/1.md",
     "__imgs/type-orm-n+1-0819224328.png",
-    "2023-01-16.md",
-    "Consistent Hashing.md"
+    "2023-01-16.md"
   ]
 }
