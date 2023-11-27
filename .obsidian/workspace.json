@@ -11,14 +11,12 @@
             "id": "2867af6098b3ea5f",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Updated MF flow (+BSS) (1).canvas",
-                "viewState": {
-                  "x": 798.8019005679073,
-                  "y": 9616.20760227164,
-                  "zoom": -0.8321048112710318
-                }
+                "file": "2023-11-27.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -117,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Updated MF flow (+BSS) (1).canvas",
+                "file": "2023-11-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Updated MF flow (+BSS) (1).canvas"
+                "file": "2023-11-27.md"
               }
             }
           }
@@ -157,6 +155,8 @@
   },
   "active": "2867af6098b3ea5f",
   "lastOpenFiles": [
+    "Updated MF flow (+BSS) (1).canvas",
+    "2023-11-27.md",
     "nex-biz-acc-statement-template-rep.pdf",
     "Export PDF A4 - Xendit.pdf",
     "Export PDF A4 - Xendit (2).pdf",
@@ -174,7 +174,6 @@
     "event table(legacy).md",
     "Some History of Functional ProgrammingLanguages (paper).md",
     "Nex Adpater RFC.canvas",
-    "Updated MF flow (+BSS) (1).canvas",
     "_archive/Updated MF flow (+BSS).canvas",
     "__imgs/籤桶.png",
     "event table.mdClick to view details.webloc",
@@ -196,7 +195,6 @@
     "cond-types/cond-index.md",
     "DDIA/ch1.md",
     "ts-faq/1.md",
-    "__imgs/type-orm-n+1-0819224328.png",
-    "2023-01-16.md"
+    "__imgs/type-orm-n+1-0819224328.png"
   ]
 }
