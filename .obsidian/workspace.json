@@ -19,8 +19,19 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "f407c2fab68e565c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +126,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,9 +141,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2023-11-27.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -153,10 +161,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2867af6098b3ea5f",
+  "active": "f407c2fab68e565c",
   "lastOpenFiles": [
-    "Updated MF flow (+BSS) (1).canvas",
     "2023-11-27.md",
+    "Updated MF flow (+BSS) (1).canvas",
     "nex-biz-acc-statement-template-rep.pdf",
     "Export PDF A4 - Xendit.pdf",
     "Export PDF A4 - Xendit (2).pdf",
