@@ -11,12 +11,9 @@
             "id": "2867af6098b3ea5f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "2023-11-27.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
+                "file": "nex-biz-acc-statement-template-rep.pdf"
               }
             }
           },
@@ -30,8 +27,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "26113970d00a9af1",
@@ -126,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2023-11-27.md",
+                "file": "nex-biz-acc-statement-template-rep.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2023-11-27.md"
+                "file": "nex-biz-acc-statement-template-rep.pdf"
               }
             }
           }
@@ -164,40 +159,40 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f407c2fab68e565c",
+  "active": "2867af6098b3ea5f",
   "lastOpenFiles": [
-    "2023-11-27.md",
     "Updated MF flow (+BSS) (1).canvas",
+    "Untitled.md",
+    "type-orm-n+1.md",
+    "ts-cond-type-note.md",
+    "2022-10-01.md",
+    "Nex Adpater.canvas",
+    "Nex Adpater RFC.canvas",
+    "2023-11-27.md",
     "nex-biz-acc-statement-template-rep.pdf",
     "Export PDF A4 - Xendit.pdf",
     "Export PDF A4 - Xendit (2).pdf",
     "(prod)nex-biz-acc-statement-template-head.pdf",
     "2023-07-03.md",
-    "type-orm-n+1.md",
     "office-hour 流程.canvas",
     "DB caching patterns.md",
     "event table.md",
     "my-personality.md",
-    "Nex Adpater.canvas",
     "shu-can/ep-1.md",
     "2023-05-17.md",
     "2023-06-05.md",
     "event table(legacy).md",
     "Some History of Functional ProgrammingLanguages (paper).md",
-    "Nex Adpater RFC.canvas",
     "_archive/Updated MF flow (+BSS).canvas",
     "__imgs/籤桶.png",
     "event table.mdClick to view details.webloc",
     "Updated MF flow (+BSS).canvasDownload Binary.webloc",
-    "Untitled.md",
     "microservices book review.md",
-    "ts-cond-type-note.md",
     "_archive/DB SQL optimization readings.md",
     "idem/2.md",
     "idem/index.md",
     "q-kafka-learnings/intro.md",
     "shu-can/ep-0.md",
-    "2022-10-01.md",
     "2022-10-14.md",
     "2023-01-21.md",
     "__imgs/Pasted image 20230308173528.png",
